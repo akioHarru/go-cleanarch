@@ -1,5 +1,5 @@
 # go-clean-arch todo list api
-    Esse é um projeto feito para aprender Clean Arch com Go
+Esse é um projeto feito para aprender Clean Arch com Go
 ## Como executar
     1. **Clonar o repositorio**:
         ```bash
