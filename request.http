@@ -1,0 +1,33 @@
+### CREATE - Criar nova tarefa
+POST http://localhost:8080/tasks
+Content-Type: application/json
+
+{
+  "title": "Estudar Go",
+  "description": "Finalizar o projeto CRUD com MongoDB",
+  "completed": false,
+  "due_date": "2024-03-10T23:59:00Z"
+}
+
+###
+
+### LIST - Listar todas as tarefas
+GET http://localhost:8080/tasks
+
+###
+
+### UPDATE - Atualizar uma tarefa
+PUT http://localhost:8080/tasks/67c73656404de482da5fd857
+Content-Type: application/json
+
+{
+  "title": "Estudar Go e Gin",
+  "description": "Melhorar o projeto com validações",
+  "completed": true,
+  "due_date": "2024-03-11T23:59:00Z"
+}
+
+###
+
+### DELETE - Deletar tarefa
+DELETE http://localhost:8080/tasks/67c73656404de482da5fd857
